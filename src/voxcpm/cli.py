@@ -5,6 +5,9 @@ VoxCPM Command Line Interface
 VoxCPM2-first CLI for voice design, cloning, and batch processing.
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import json
 import os
